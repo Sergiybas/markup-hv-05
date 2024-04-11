@@ -443,14 +443,13 @@
           <form class="footer-form">
             <div class="subscribe">
               <label for="subscribe">Subscribe</label>
-              <input type="email" name="subscribe" id="subscribe" placeholder="E-mail"/>
+              <input type="email" name="subscribe" id="subscribe" placeholder="E-mail" />
             </div>
             <div class="button-subscribe">
               <button type="submit">Subscribe</button>
               <svg class="subscribe-svg">
                 <use href="./images/symbol-defs.svg#icon-flay"></use>
               </svg>
-      
             </div>
           </form>
         </div>
@@ -462,7 +461,7 @@
         <form class="form" autocomplete="off">
           <p>Leave your contacts and we will call you back</p>
           <div class="info">
-            <input class="info-input" type="text" name="name" id="name"  placeholder=" "  autofocus />
+            <input class="info-input" type="text" name="name" id="name" placeholder=" " autofocus />
             <label class="info-label" for="name">Name </label>
             <svg class="info-svg">
               <use href="./images/symbol-defs.svg#person-modal"></use>
@@ -478,7 +477,7 @@
           </div>
 
           <div class="info">
-            <input class="info-input" type="email" name="mail" id="mail"  placeholder=" "  />
+            <input class="info-input" type="email" name="mail" id="mail" placeholder=" " />
             <label class="info-label" for="mail">Email </label>
             <svg class="info-svg">
               <use href="./images/symbol-defs.svg#email-modal"></use>
@@ -489,8 +488,12 @@
             <textarea name="comment" id="comment" rows="8" placeholder="Text input"></textarea>
           </div>
           <div class="policy">
-            <input type="checkbox" name="policy" id="policy" />
-            <label for="policy">I accept the terms and conditions of the</label>
+            <label class="checkbox-label" for="policy">
+              <input class="checkbox" type="checkbox" name="policy" id="policy" />
+             <span class="checkbox-border"></span>
+              <span class="checkbox-accept"> I accept the terms and conditions of the</span>
+              
+            </label>
           </div>
           <div class="submit-button">
             <button class="submit" type="submit">send</button>
